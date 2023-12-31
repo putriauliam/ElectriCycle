@@ -14,5 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('beranda');
+});
+
+Route::get('/detail', function () {
+    return view('detail');
+});
+
+Route::get('/dropbox', function () {
+    return view('dropbox');
+});
+
+Route::get('/jenis', function () {
+    return view('jenis');
+});
+Route::get('/kategori', function () {
+    return view('kategori');
+});
+Route::get('/maps', function () {
+    return view('maps');
+});
+Route::get('/permintaan', function () {
+    return view('permintaan');
+});
+Route::get('/riwayat', function () {
+    return view('riwayat');
 });
